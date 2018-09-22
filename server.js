@@ -1,6 +1,7 @@
 // dependencies
 
 var express = require("express");
+var app = express();
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var exphbs = require("express-handlebars");
@@ -9,9 +10,9 @@ var cheerio = require("cheerio");
 var request = require("request");
 
 
-var db = require("./models");
+var db = require("../models");
 var PORT = process.env.PORT || 3000;
-var app = express();
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static("public"));
 app.engine(
