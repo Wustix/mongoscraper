@@ -1,5 +1,8 @@
-import Article from "./Article"
-module.exports={
-    Article,
-    Comment:require("./Comment")
-  }
+import Article from "./Article";
+import Comment from "./Comment";
+// module.exports={
+//     Article,
+//     Comment:require("./Comment")
+//   }
+
+  export default {Article, Comment}
