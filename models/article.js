@@ -28,4 +28,4 @@ var ArticleSchema=new Schema({
 // var Article=mongoose.model("Article",ArticleSchema);
 // module.exports=Article;
 
-module.exports=mongoose.model("Article", ArticleSchema);
+export default mongoose.model("Article", ArticleSchema);

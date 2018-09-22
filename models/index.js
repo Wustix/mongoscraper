@@ -1,4 +1,5 @@
+import Article from "./Article"
 module.exports={
-    // Article:require("./Article"),
+    Article,
     Comment:require("./Comment")
   }
