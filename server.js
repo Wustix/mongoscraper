@@ -33,7 +33,7 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/mongoHea
 mongoose.Promise = Promise;
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
-mongoose.set ('useCreateIndex', true)
+// mongoose.set ('useCreateIndex', true)
 //express routes
 app.get("/", function (req, res) {
   db.Article.find({})
