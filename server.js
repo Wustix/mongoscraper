@@ -23,7 +23,7 @@ app.engine(
 );
 app.set("view engine", "handlebars");
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb:localhost/mongoscraperdb"
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/mongoHeadlines"
 
 // ("mongodb://heroku_pxq5bj8k:60jqehph473j4t9s5p1rthiiok@ds157762.mlab.com:57762/heroku_pxq5bj8k");
 
