@@ -129,6 +129,7 @@ app.post("/comment/:id", function (req, res) {
       return db.Article.findOneAndUpdate({ _id: req.params.id }, { $push: { comments: dbComment._id } }, { new: true });
     })
     .then(function (dbArticle) {
+      console.log(dbArticle);
       res.send("/saved");
     })
     .catch(function (err) {
