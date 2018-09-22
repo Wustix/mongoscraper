@@ -1,4 +1,4 @@
 module.exports={
-    Article:require("./Article.js"),
+    Article:require("./Article"),
     Comment:require("./Comment")
   }

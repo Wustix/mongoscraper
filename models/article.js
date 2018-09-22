@@ -25,5 +25,7 @@ var ArticleSchema=new Schema({
         default:false
     }
 });
-var Article=mongoose.model("Article",ArticleSchema);
-module.exports=Article;
+// var Article=mongoose.model("Article",ArticleSchema);
+// module.exports=Article;
+
+module.exports=mongoose.model("Article", ArticleSchema);
