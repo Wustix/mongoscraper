@@ -1,0 +1,38 @@
+body {
+    background-image: url("/images/paperbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+ .navbar-brand   {
+     padding: 30;;
+     font-size: 40px;
+     font-style: italic;
+     
+
+ }
+
+ .nav-link {
+    font-size: 20px;
+    font-style: bold;
+ }
+
+ .card {
+     width: 1200px;
+     margin: 20px 0px 20px 0px;
+ }
+
+ #sav-btn {
+     float: right;
+     padding: 0px 15px 0px 15px;
+     font-size: 20px;
+     margin-right: 5px;
+ }
+
+ .card-header {
+     padding: 20px 0px 20px 0px;
+     font-size: 30px;
+ }
