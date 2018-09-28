@@ -10,7 +10,7 @@ var cheerio = require("cheerio");
 var request = require("request");
 
 
-var db = require("./models/Index");
+var db = require("./models");
 var PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -20,7 +20,7 @@ app.engine(
   exphbs({
     defaultLayout: "main",
     extname: ".handlebars"
-  })ss
+  })
 );
 app.set("view engine", "handlebars");
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
