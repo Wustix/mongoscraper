@@ -22,7 +22,7 @@
     "axios": "^0.24.0",
     "body-parser": "^1.19.1",
     "cheerio": "^1.0.0-rc.10",
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "express-handlebars": "^6.0.2",
     "handlebars": "^4.7.7",
     "logger": "0.0.1",
